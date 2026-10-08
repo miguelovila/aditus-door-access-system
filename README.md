@@ -2,6 +2,8 @@
 
 Aditus is a door access system I built with an Android app, a Wear OS app, an ESP32 controller, and a Flask backend. It brings together the whole process: creating accounts, registering devices, assigning access to rooms, and authenticating an unlock over Bluetooth Low Energy.
 
+![Cover image showing a phone, a watch, and an ESP32 door controller](screenshots/cover-image.png)
+
 Each phone and watch generates its own RSA key pair. The backend decides who can access a door, and the ESP32 verifies a signature from the device before accepting the request.
 
 ![Aditus running on a smartwatch, completing an unlock request beside an ESP32](screenshots/smartwatch_unlock_flow-ezgif.com-optimize.gif)
